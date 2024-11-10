@@ -41,7 +41,7 @@ check_cpuid:
   je .no_cpuid
   ret
 .no_cpuid:
-  mov al, "c"
+  mov al, "C"
   jmp error
 
 check_long_mode:
