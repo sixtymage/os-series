@@ -13,6 +13,5 @@ long_mode_start:
   mov fs, ax
   mov gs, ax
 
-  ;call kernel_main
-  mov dword [0xb8000], 0x024b024f
+  call kernel_main
   hlt
